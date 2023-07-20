@@ -20,5 +20,11 @@ void main() {
       final result = calculator.multiply(100, 20);
       expect(result, 2000);
     });
+
+    test("Divite Feature Test", () {
+      final calculator = Calculator();
+      final result = calculator.divide(100, 20);
+      expect(result, 10);
+    });
   });
 }
